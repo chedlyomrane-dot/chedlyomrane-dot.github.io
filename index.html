@@ -938,8 +938,7 @@
     const next = slides[current];
     next.classList.add('active');
     // Helpful on mobile where slides can scroll
-    next.scrollTop = 0;
-    next.scrollLeft = 0;
+    
     updateUI();
     setTimeout(() => { animating = false; }, 700);
   }
